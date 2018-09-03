@@ -1,0 +1,40 @@
+body { background: #339900; }
+
+/* Property Values block
+ Displays an element as a block element (like <p>). It starts on a new line,
+ and takes up the whole width.
+ 
+ We’ve also set up our SPAN tags so that they align one on top of another instead of side by side.
+
+*/
+span { display: block; }
+
+.outline{ 
+    width: 110px;
+     text-align: center;
+     padding: 10px;
+     margin: 10px;
+     background: #FFF;
+     color: #cc0033; 
+    border-radius: 5px}
+
+.top{ text-align: left; }
+
+.bottom{ text-align: right; }
+
+/* (-webkit for Chrome, Safari;
+    -moz for Firefox,
+    -o for Opera,
+    -ms for Internet Explorer). 
+
+    This allows properties to be set specific to each individual browser/rendering engine
+     in order for inconsistencies between implementations to be safely accounted for. 
+
+*/
+.shadow{ box-shadow: 1px 1px 3px #000;
+     -moz-box-shadow: 1px 1px 3px #000;
+      -webkit-box-shadow: 1px 1px 3px #000; }
+
+.rounded{ border-radius:10px;
+     -moz-border-radius:10px;
+      -webkit-border-radius:10px; }
